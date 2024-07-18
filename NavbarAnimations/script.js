@@ -20,6 +20,6 @@ tl.pause()
 menu.addEventListener("click",function(){
     tl.play()
 })
-menu.addEventListener("click",function(){
+cross.addEventListener("click",function(){
     tl.reverse()
 })

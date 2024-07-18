@@ -9,8 +9,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-}
-body{
     overflow-x: hidden;
 }
 
@@ -25,8 +23,8 @@ body{
 #nav{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 40px 50px;
+    justify-content: space-between;
+    padding: 40px  50px;
     color: #fff;
 }
 #nav h2{
@@ -41,7 +39,7 @@ body{
 
 #full{
     height: 100%;
-    width: 100%;
+    width: 40%;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.338);
     top: 0;
